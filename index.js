@@ -19,6 +19,16 @@ app.get('/api/heroes', (req, res) => {
     })
 })
 
+app.post('/api/heroes', (req, res) => {
+  Hero.create(req.body)
+    .then((hero) => {
+      res.json(hero)
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+})
+
 app.listen(8000, () => {
   console.log('Ready for lift off on port 8000')
 })
