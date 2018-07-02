@@ -1,0 +1,26 @@
+[
+  {
+    "name" : "Spider-Man",
+    "superPower" : "Web-slinging awesomeness and one-liners"
+  },
+  {
+    "name" : "Captain America",
+    "superPower" : "Strength, speed, and agility equal to peak human potential, also a vibranium shield"
+  },
+  {
+    "name" : "Nighthawk",
+    "superPower" : "World-class detective trained by Batman himself, peak physical and acrobatic prowess"
+  },
+  {
+    "name" : "Big Hero 6",
+    "superPower" : "A team of japanese superhuman operatives led by Hiro Takachiho and his robot companion, Baymax"
+  },
+  {
+    "name" : "Green Arrow",
+    "superPower" : "Master archer, yeah that's about it. Oh, kick-ass goatie"
+  },
+  {
+    "name" : "Wonderboy",
+    "superPower" : "The power to move you"
+  }
+]
