@@ -6,6 +6,7 @@ const Hero = mongoose.model('Hero')
 
 const app = express()
 
+app.set('port', process.env.PORT || 3000)
 app.use(parser.json())
 app.use(cors())
 
