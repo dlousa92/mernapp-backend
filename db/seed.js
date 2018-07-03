@@ -1,4 +1,4 @@
-const mongoose = require('./schema.js')
+const mongoose = require('./Hero')
 const Hero = mongoose.model('Hero')
 const superheroData = require('./superhero-data.json')
 
