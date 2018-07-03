@@ -39,6 +39,10 @@ app.get('/api/heroes/:id', (req, res) => {
     })
 })
 
+app.delete('api/heroes/:id', (req, res) => {
+  Hero.findByIdAndRemove(req.params.id)
+})
+
 app.listen(8000, () => {
   console.log('Ready for lift off on port 8000')
 })
